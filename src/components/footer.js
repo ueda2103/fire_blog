@@ -1,7 +1,7 @@
 import React from "react"
 import {
   TiSocialTwitter,
-  TiSocialLinkedin,
+  // TiSocialLinkedin,
   TiSocialFacebook,
   TiSocialYoutube,
 } from "react-icons/ti"
@@ -31,7 +31,7 @@ const Footer = () => {
                 <TiSocialYoutube className="footer-social-icon" />
               </span>
             </a>
-            <a
+            {/* <a
               target="_blank"
               href="https://www.linkedin.com/"
               rel="noopener noreferrer"
@@ -39,7 +39,7 @@ const Footer = () => {
               <span className="icon-container" id="li-icon">
                 <TiSocialLinkedin className="footer-social-icon" />
               </span>
-            </a>
+            </a> */}
             <a
               target="_blank"
               href="https://www.facebook.com/"
@@ -51,7 +51,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div>© {new Date().getFullYear()} Blog Boost Starter</div>
+        <div>© {new Date().getFullYear()} FIRE BLOG</div>
       </div>
     </footer>
   )
