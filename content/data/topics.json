@@ -1,5 +1,10 @@
 [
   {
+    "name": "コラム",
+    "slug": "コラム",
+    "image": "../../static/images/topic2logo.jpg"
+  },
+  {
     "name": "せどり",
     "slug": "せどり",
     "image": "../../static/images/topic1logo.jpg"

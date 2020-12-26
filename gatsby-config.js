@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `FIRE BLOG`,
-    description: `A Gatsby Netlify CMS powered Blog Starter to boost your development.`,
-    author: `@boostcode`,
+    description: `社畜が10年でFIREを目指す過程を記録するブログです。`,
+    author: `Team Forward`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
