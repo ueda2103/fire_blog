@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `FIRE BLOG`,
+    title: `社畜2人が10年でFIREを目指すブログ`,
     description: `社畜が10年でFIREを目指す過程を記録するブログです。`,
     author: `Team Forward`,
   },
