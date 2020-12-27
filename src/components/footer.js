@@ -51,7 +51,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div>© {new Date().getFullYear()} FIRE BLOG</div>
+        <div>© {new Date().getFullYear()} 社畜2人が10年でFIREを目指すブログ</div>
       </div>
     </footer>
   )

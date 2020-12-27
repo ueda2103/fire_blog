@@ -2,16 +2,21 @@
   {
     "name": "コラム",
     "slug": "コラム",
+    "image": "../../static/images/topic1logo.jpg"
+  },
+  {
+    "name": "経済・投資",
+    "slug": "経済・投資",
     "image": "../../static/images/topic2logo.jpg"
   },
   {
     "name": "せどり",
     "slug": "せどり",
-    "image": "../../static/images/topic1logo.jpg"
+    "image": "../../static/images/topic3logo.jpg"
   },
   {
     "name": "プログラミング",
     "slug": "プログラミング",
-    "image": "../../static/images/topic2logo.jpg"
+    "image": "../../static/images/topic4logo.jpg"
   }
 ]
