@@ -48,7 +48,7 @@ const AboutPage = () => {
 
   return (
     <Layout>
-      <SEO title="社畜2人が10年でFIREを目指すブログ" />
+      <SEO title="about" />
       <div id="about">
         <div className="fire-blog">
           <h2>社畜2人が10年でFIREを目指すブログ</h2>
