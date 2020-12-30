@@ -12,6 +12,12 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-catch-links`,
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: `UA-186163235-2`,
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/static/images`,
@@ -60,12 +66,6 @@ module.exports = {
         theme_color: `#f7102b`,
         display: `minimal-ui`,
         icon: `static/favicon.ico`,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: `G-RQ7N0PB1M0`,
       },
     },
 
