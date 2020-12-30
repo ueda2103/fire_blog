@@ -23,7 +23,7 @@ featuredImage: /images/aboutProgramming.jpg
 ・社会の変化に対する焦り
 
 <strong>・社会の変化に対する焦り</strong><br>
-Amazonや楽天、Uber eat、zoom、Remoなどさまざまなサービスがコロナ禍で非常に注目されましたね！<br>
+Amazonや楽天、Uber eat、zoom、Remoなどさまざまなサービスがコロナ禍で注目されましたね！<br>
 みなさん使いこなせておりますでしょうか？
 
 コロナは社会やニーズの変化を急激に促しました。<br>
