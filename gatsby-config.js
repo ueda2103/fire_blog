@@ -3,6 +3,7 @@ module.exports = {
     title: `社畜2人が10年でFIREを目指すブログ`,
     description: `社畜が10年でFIREを目指す過程を記録するブログです。`,
     author: `Team Forward`,
+    siteUrl: `https://side-business-blog.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -11,6 +12,7 @@ module.exports = {
     `gatsby-transformer-json`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-catch-links`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
