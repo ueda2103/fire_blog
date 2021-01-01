@@ -10,7 +10,7 @@ category: コラム
 tags:
   - コラム
   - ゆーき
-featuredImage: /images/aboutProgramming.jpg
+featuredImage: /images/programming-post-1.jpg
 ---
 こんにちは！<br>
 生活習慣がずれすぎてシャワーのタイミングがわからなくなった<strong>ゆーき</strong>です！<br>
