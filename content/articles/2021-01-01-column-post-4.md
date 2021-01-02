@@ -9,8 +9,8 @@ featuredPost: false
 category: コラム
 tags:
   - コラム
-  - ブログ
-  - ゆーき
+  - 経済
+  - りょう
 featuredImage: /images/column-post-4.jpg
 ---
 あけましておめでとうございます！<br>
