@@ -1,17 +1,17 @@
 ---
 templateKey: blog-post
 title: コロナウイルスによる経済の変化
-slug: column-post-4
+slug: investment-post-1
 date: 2021-01-01
 dateModified: 2021-01-01
-description: this is the forth column post
+description: this is the first investment post
 featuredPost: false
-category: コラム
+category: 経済・投資
 tags:
-  - コラム
-  - 経済
+  - 経済・投資
+  - コロナ
   - りょう
-featuredImage: /images/column-post-4.jpg
+featuredImage: /images/investment-post-1.jpg
 ---
 あけましておめでとうございます！<br>
 長期休暇期間に入りだらけすぎてやばいと思っているりょうです。

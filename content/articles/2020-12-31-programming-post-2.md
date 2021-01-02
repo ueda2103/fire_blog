@@ -1,17 +1,17 @@
 ---
 templateKey: blog-post
 title: ブログ作成について
-slug: column-post-3
+slug: programming-post-2
 date: 2020-12-31
 dateModified: 2020-12-31
-description: this is the third column post
+description: this is the second programming post
 featuredPost: false
-category: コラム
+category: プログラミング
 tags:
-  - コラム
+  - プログラミング
   - ブログ
   - ゆーき
-featuredImage: /images/column-post-3.jpg
+featuredImage: /images/programming-post-3.jpg
 ---
 みなさんこんにちは！<br>
 相変わらず無職のゆーきです。<br>
