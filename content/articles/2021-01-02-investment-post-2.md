@@ -1,15 +1,15 @@
 ---
 templateKey: blog-post
 title: コロナウイルスと格差社会
-slug: column-post-5
+slug: investment-post-2
 date: 2021-01-02
 dateModified: 2021-01-02
-description: this is the fifth column post
+description: this is the second investment post
 featuredPost: false
-category: コラム
+category: 経済・投資
 tags:
-  - コラム
-  - 経済
+  - 経済・投資
+  - コロナ
   - りょう
 featuredImage: /images/aboutInvestment.jpg
 ---
