@@ -5,7 +5,7 @@ slug: programming-post-2
 date: 2020-12-31
 dateModified: 2020-12-31
 description: this is the second programming post
-featuredPost: false
+featuredPost: true
 category: プログラミング
 tags:
   - プログラミング

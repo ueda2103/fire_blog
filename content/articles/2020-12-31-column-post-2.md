@@ -5,7 +5,7 @@ slug: column-post-2
 date: 2020-12-31
 dateModified: 2020-12-31
 description: this is the second column post
-featuredPost: false
+featuredPost: true
 category: コラム
 tags:
   - コラム
