@@ -3,11 +3,18 @@ import React from "react"
 import Image from "gatsby-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { useStaticQuery } from "gatsby"
+import { Link, useStaticQuery } from "gatsby"
 
 const AboutPage = () => {
   const data = useStaticQuery(graphql`
     {
+      column_image: file(relativePath: {eq: "aboutColumn.jpg"}) {
+        childImageSharp {
+          fluid(maxWidth: 400) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
       investment_image: file(relativePath: {eq: "aboutInvestment.jpg"}) {
         childImageSharp {
           fluid(maxWidth: 400) {
@@ -64,13 +71,34 @@ const AboutPage = () => {
         </div>
 
         <h2>Theme</h2>
+        <h3>▶︎　コラム</h3>
+        <div className="about-card-style">
+          <Link to="/コラム">
+            <Image
+              className="about-page-image"
+              fluid={data.column_image.childImageSharp.fluid}
+              alt={data.name}
+            />{" "}
+          </Link>
+          <div className="theme-text">
+            <p>
+              僕たちのマインドや近況報告などを行なっていきます。
+            </p>
+            <p>
+              ノウハウについては他のカテゴリをご覧ください。
+            </p>
+          </div>
+        </div>
+
         <h3>▶︎　経済・投資</h3>
         <div className="about-card-style">
-          <Image
-            className="about-page-image"
-            fluid={data.investment_image.childImageSharp.fluid}
-            alt={data.name}
-          />{" "}
+          <Link to="/経済・投資">
+            <Image
+              className="about-page-image"
+              fluid={data.investment_image.childImageSharp.fluid}
+              alt={data.name}
+            />{" "}
+          </Link>
           <div className="theme-text">
             <p>
               株式・不動産投資という王道の投資方法が中心になります。
@@ -86,11 +114,13 @@ const AboutPage = () => {
 
         <h3>▶︎　せどり</h3>
         <div className="about-card-style">
-          <Image
-            className="about-page-image"
-            fluid={data.resale_image.childImageSharp.fluid}
-            alt={data.name}
-          />{" "}
+          <Link to="/せどり">
+            <Image
+              className="about-page-image"
+              fluid={data.resale_image.childImageSharp.fluid}
+              alt={data.name}
+            />{" "}
+          </Link>
           <div className="theme-text">
             <p>
               せどりとは商品を安く仕入れて定価かそれ以下で販売を行うことです。
@@ -106,11 +136,13 @@ const AboutPage = () => {
 
         <h3>▶︎　プログラミング</h3>
         <div className="about-card-style">
-          <Image
-            className="about-page-image"
-            fluid={data.programming_image.childImageSharp.fluid}
-            alt={data.name}
-          />{" "}
+          <Link to="/プログラミング">
+            <Image
+              className="about-page-image"
+              fluid={data.programming_image.childImageSharp.fluid}
+              alt={data.name}
+            />{" "}
+          </Link>
           <div className="theme-text">
             <p>
               プログラミングはWeb製作、Web開発の基礎知識になります。
